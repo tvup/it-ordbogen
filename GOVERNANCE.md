@@ -4,11 +4,17 @@ Princippet er **demokrati med stor respekt for faglighed**. Alle kan foreslå, a
 
 ## Faser
 
-### Fase 1: Solo-redaktion (nu)
+### Fase 0: Indledende opfyldning (nu)
 
-Indtil panelet er etableret, træffer repo-ejeren ([@tvup](https://github.com/tvup)) alle beslutninger. PR'er bliver stadig diskuteret offentligt, men endelig godkendelse ligger hos én person.
+Repoet fyldes med de oversættelser, der er repo-ejeren ([@tvup](https://github.com/tvup)) og [@jutte-jytte](https://github.com/jutte-jytte) bekendt — både fra dansk fagsprog, daglig tale og kendte (også afviste) oversættelsesforsøg. Posterne markeres som `approved` direkte; tærsklen er begrundet sproglig viden hos disse to, ikke en formel afstemning.
 
-Mål: Få nok kvalitetsindhold og bidragydere til at det giver mening at samle et panel.
+Eksterne PR'er er velkomne og diskuteres åbent, men i denne fase er det realistisk at de fleste beslutninger træffes hurtigt og af de to nævnte. Mål: Få et solidt grundlag at bygge videre fra, så Fase 1 ikke starter med et tomt repo.
+
+### Fase 1: Duo-redaktion
+
+Når grundstammen er på plads, træffes beslutninger i fællesskab af repo-ejeren ([@tvup](https://github.com/tvup)) og [@jutte-jytte](https://github.com/jutte-jytte). PR'er bliver diskuteret offentligt, og endelig godkendelse kræver samtykke fra begge — ved uenighed har repo-ejeren den afgørende stemme.
+
+Mål: Få nok kvalitetsindhold og bidragydere til at det giver mening at samle et bredere panel.
 
 ### Fase 2: Etablering af panel
 
@@ -59,4 +65,4 @@ Hvis et panelmedlem konsekvent ikke accepterer flertalsbeslutninger, eller agere
 
 ## Ændringer til denne fil
 
-Ændringer kræver flertal i panelet. I solo-fasen kræver de en eksplicit PR med mindst 14 dages åbent kommentarvindue.
+Ændringer kræver flertal i panelet. I Fase 0 og Fase 1 kræver de en eksplicit PR med mindst 14 dages åbent kommentarvindue.

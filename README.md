@@ -75,7 +75,7 @@ Se [`CONTRIBUTING.md`](CONTRIBUTING.md) for detaljer.
 
 Ordbogen er åben for bidrag, men beslutninger om hvad der ender som godkendt indhold (`status: "approved"`) træffes af et **fagligt panel**.
 
-- **Indtil panelet er etableret**: Beslutninger træffes af repo-ejeren ([@tvup](https://github.com/tvup)).
+- **Indtil panelet er etableret**: Beslutninger træffes i duo-redaktion af repo-ejeren ([@tvup](https://github.com/tvup)) og [@jutte-jytte](https://github.com/jutte-jytte). Se [`GOVERNANCE.md`](GOVERNANCE.md) for fase-opdelingen (indledende opfyldning → duo-redaktion → panel).
 - **Når panelet er på plads**: Se [`GOVERNANCE.md`](GOVERNANCE.md) for sammensætning, afstemningsregler og hvordan man bliver panelmedlem.
 
 Princippet er **demokrati med respekt for faglighed**: alle kan foreslå og diskutere, men den endelige redaktionelle beslutning ligger hos folk med dokumenteret IT-faglig og/eller sproglig baggrund.
