@@ -12,7 +12,7 @@ Når man arbejder i IT-branchen i Danmark, støder man konstant på engelske udt
 
 ## Datakilde
 
-Alle ord findes i [`data/terms.json`](data/terms.json). En post ser sådan ud:
+Alle ord findes i [`data/terms.json`](data/terms.json). Et opslag ser sådan ud:
 
 ```json
 {
@@ -65,8 +65,8 @@ Alle ord findes i [`data/terms.json`](data/terms.json). En post ser sådan ud:
 ## Hvordan bidrager man?
 
 1. Fork repoet
-2. Tilføj eller redigér en post i `data/terms.json`
-3. Sæt `status: "proposed"` på nye eller ændrede poster
+2. Tilføj eller redigér et opslag i `data/terms.json`
+3. Sæt `status: "proposed"` på nye eller ændrede opslag
 4. Åbn en PR med kort begrundelse — gerne med kilder til faktisk sprogbrug
 
 Se [`CONTRIBUTING.md`](CONTRIBUTING.md) for detaljer.
@@ -82,7 +82,7 @@ Princippet er **demokrati med respekt for faglighed**: alle kan foreslå og disk
 
 ## Redaktionelle principper
 
-Hvad ordbogen optager og hvordan poster skal skrives, styres af et sæt redaktionelle principper — fx at engelske grammatiske bestanddele ikke optages som IT-udtryk (*"noget token-ish"* afvises, selvom *token* selv er en post), og at danske sammensætninger skal samskrives (*versionskonflikt*, ikke *version konflikt*).
+Hvad ordbogen optager og hvordan opslag skal skrives, styres af et sæt redaktionelle principper — fx at engelske grammatiske bestanddele ikke optages som IT-udtryk (*"noget token-ish"* afvises, selvom *token* selv er et opslag), og at danske sammensætninger skal samskrives (*versionskonflikt*, ikke *version konflikt*).
 
 Se [`PRINCIPLES.md`](PRINCIPLES.md) for den fulde liste.
 

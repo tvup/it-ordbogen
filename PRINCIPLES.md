@@ -10,7 +10,7 @@ Engelske grammatiske bestanddele — suffikser, partikler, afledninger — accep
 
 > *"Vi skal nok basere det på noget token-ish i stedet."*
 
-Her er *token* en regulær IT-term og hører hjemme i ordbogen som selvstændig post. Men *-ish* er en engelsk approksimations-suffiks ("noget der minder om") som her er gjort til frit mode-suffiks i dansk syntaks. Det er ikke *token* der er problemet — det er det engelske grammatiske mønster der pålægges dansk. Sådanne konstruktioner afvises uanset om grundordet er et IT-udtryk eller ej; ordbogen tager stilling til ord og udtryk, ikke til grammatiske kalker.
+Her er *token* en regulær IT-term og hører hjemme i ordbogen som selvstændigt opslag. Men *-ish* er en engelsk approksimations-suffiks ("noget der minder om") som her er gjort til frit mode-suffiks i dansk syntaks. Det er ikke *token* der er problemet — det er det engelske grammatiske mønster der pålægges dansk. Sådanne konstruktioner afvises uanset om grundordet er et IT-udtryk eller ej; ordbogen tager stilling til ord og udtryk, ikke til grammatiske kalker.
 
 Tilsvarende afvises partikler og modale tilføjelser som *kind of*, *sort of*, *literally* brugt på dansk, samt frit dannede afledninger der efterligner engelske mønstre.
 
@@ -32,15 +32,15 @@ Når engelske flerords-udtryk får et dansk modstykke, skrives det danske sammen
 
 - **Sammensætning på dansk** følger dansk retskrivning — uanset om grundordene er danske eller låneord. *Backupstrategi*, ikke *backup strategi*.
 - **Bindestreg** kan tillades i overgangssammensætninger der indeholder et fremmedord eller en flerordsbestanddel (*cloud-native*, *open source-projekt*, *build-pipeline*), især hvis sammenskrivning gør udtrykket svært at læse.
-- **Særskrivning** (to ord med mellemrum) er ikke tilladt i poster der optages som `approved`.
+- **Særskrivning** (to ord med mellemrum) er ikke tilladt i opslag der optages som `approved`.
 - Ved tvivl konsulteres Dansk Sprognævn / Retskrivningsordbogen.
 
 ## 3. Hvor reglerne passer ind i datamodellen
 
-Når en post afvises på baggrund af én af disse principper, skal det dokumenteres:
+Når et opslag afvises på baggrund af én af disse principper, skal det dokumenteres:
 
 - **Afvist oversættelsesforslag** (fx *version konflikt* med mellemrum) skrives ind under `rejected_translations_da` med begrundelse, der eksplicit henviser til princippet (fx *"Særskrivning af dansk sammensætning, jf. PRINCIPLES.md §2"*).
-- **Afvist optagelse** (fx *token-ish*-konstruktionen) optages **ikke** som selvstændig post — den grammatiske kalke er ikke et IT-udtryk, selv når grundordet er det. Hvis spørgsmålet kommer op i en PR, lukkes den med henvisning til §1.
+- **Afvist optagelse** (fx *token-ish*-konstruktionen) optages **ikke** som selvstændigt opslag — den grammatiske kalke er ikke et IT-udtryk, selv når grundordet er det. Hvis spørgsmålet kommer op i en PR, lukkes den med henvisning til §1.
 
 ---
 

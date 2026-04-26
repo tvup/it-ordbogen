@@ -6,7 +6,7 @@ Princippet er **demokrati med stor respekt for faglighed**. Alle kan foreslå, a
 
 ### Fase 0: Indledende opfyldning (nu)
 
-Repoet fyldes med de oversættelser, der er repo-ejeren ([@tvup](https://github.com/tvup)) og [@jutte-jytte](https://github.com/jutte-jytte) bekendt — både fra dansk fagsprog, daglig tale og kendte (også afviste) oversættelsesforsøg. Posterne markeres som `approved` direkte; tærsklen er begrundet sproglig viden hos disse to, ikke en formel afstemning.
+Repoet fyldes med de oversættelser, der er repo-ejeren ([@tvup](https://github.com/tvup)) og [@jutte-jytte](https://github.com/jutte-jytte) bekendt — både fra dansk fagsprog, daglig tale og kendte (også afviste) oversættelsesforsøg. Opslagene markeres som `approved` direkte; tærsklen er begrundet sproglig viden hos disse to, ikke en formel afstemning.
 
 Eksterne PR'er er velkomne og diskuteres åbent, men i denne fase er det realistisk at de fleste beslutninger træffes hurtigt og af de to nævnte. Mål: Få et solidt grundlag at bygge videre fra, så Fase 1 ikke starter med et tomt repo.
 
@@ -20,7 +20,7 @@ Mål: Få nok kvalitetsindhold og bidragydere til at det giver mening at samle e
 
 Når repoet har:
 
-- Mindst 100 godkendte poster
+- Mindst 100 godkendte opslag
 - Mindst 5 aktive bidragydere med substantielle PR'er
 - Mindst én sprogfagligt kvalificeret bidragyder
 
