@@ -48,6 +48,30 @@
           "items": { "type": "string" },
           "description": "Danske alternativer der findes i brug, men ikke er primærvalg."
         },
+        "rejected_translations_da": {
+          "type": "array",
+          "description": "Foreslåede danske oversættelser som ikke har vundet udbredelse — med begrundelse.",
+          "items": {
+            "type": "object",
+            "required": ["term", "reason"],
+            "additionalProperties": false,
+            "properties": {
+              "term": {
+                "type": "string",
+                "description": "Den foreslåede oversættelse (fx 'fastpladelager')."
+              },
+              "reason": {
+                "type": "string",
+                "description": "Hvorfor oversættelsen ikke er accepteret som primærvalg eller alternativ."
+              },
+              "sources": {
+                "type": "array",
+                "items": { "type": "string" },
+                "description": "Kilder der dokumenterer enten forslaget eller dets manglende udbredelse."
+              }
+            }
+          }
+        },
         "examples": {
           "type": "array",
           "items": { "type": "string" },

@@ -17,6 +17,30 @@
       "status": "approved"
     },
     {
+      "term_en": "harddisk",
+      "term_da": "harddisk",
+      "loanword": "adapted_loan",
+      "definition_en": "A non-volatile data storage device using rotating magnetic platters.",
+      "note_da": "Bruges som låneord med dansk bøjning: 'en harddisk', 'harddisken', 'flere harddiske'. Trods flere danske oversættelsesforsøg er 'harddisk' enerådende i både fagsprog og daglig tale.",
+      "alternatives_da": [],
+      "rejected_translations_da": [
+        {
+          "term": "fastpladelager",
+          "reason": "Foreslået som dansk fagterm, men har aldrig fundet udbredt anvendelse — hverken i daglig tale eller i IT-fagsprog. Optræder primært i ældre opslagsværker og som klassisk eksempel på en oversættelse der ikke vandt fodfæste."
+        },
+        {
+          "term": "fastplade",
+          "reason": "Tilsvarende ikke etableret i praktisk brug; vil for de fleste lyde som et helt andet teknisk komponent end en harddisk."
+        }
+      ],
+      "examples": [
+        "Harddisken er ved at være fyldt op.",
+        "Vi udskifter de gamle harddiske med SSD'er."
+      ],
+      "category": "hardware",
+      "status": "approved"
+    },
+    {
       "term_en": "cloud",
       "term_da": "cloud",
       "loanword": "coexists",
@@ -91,8 +115,14 @@
       "term_da": "pipeline",
       "loanword": "pure_loan",
       "definition_en": "An automated sequence of build, test and deploy steps.",
-      "note_da": "Bruges som låneord, ofte med dansk bøjning: 'pipelinen', 'pipelines', 'pipelinene'. Direkte oversættelser ('rørledning') bruges ikke i IT-betydningen.",
+      "note_da": "Bruges som låneord, ofte med dansk bøjning: 'pipelinen', 'pipelines', 'pipelinene'.",
       "alternatives_da": [],
+      "rejected_translations_da": [
+        {
+          "term": "rørledning",
+          "reason": "Direkte oversættelse fra grundbetydningen, men anvendes ikke i IT-betydningen. Bruges udelukkende om fysiske rør (olie, vand, gas) på dansk og ville være misvisende i en CI/CD-kontekst."
+        }
+      ],
       "examples": [
         "CI-pipelinen fejler på staging.",
         "Vi har bygget en ny deployment-pipeline."

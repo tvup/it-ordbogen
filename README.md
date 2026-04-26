@@ -16,17 +16,23 @@ Alle ord findes i [`data/terms.json`](data/terms.json). En post ser sådan ud:
 
 ```json
 {
-  "term_en": "deployment",
-  "term_da": "deployment",
-  "loanword": "pure_loan",
-  "definition_en": "The process of releasing software to a target environment.",
-  "note_da": "Bruges som rent låneord. Verbet bøjes på dansk: 'at deploye', 'deployer', 'deployede'.",
-  "alternatives_da": ["udrulning", "idriftsættelse"],
-  "examples": [
-    "Vi laver et deployment til produktion fredag.",
-    "Pipelinen deployer automatisk til staging."
+  "term_en": "harddisk",
+  "term_da": "harddisk",
+  "loanword": "adapted_loan",
+  "definition_en": "A non-volatile data storage device using rotating magnetic platters.",
+  "note_da": "Bruges som låneord med dansk bøjning: 'en harddisk', 'harddisken', 'flere harddiske'.",
+  "alternatives_da": [],
+  "rejected_translations_da": [
+    {
+      "term": "fastpladelager",
+      "reason": "Foreslået som dansk fagterm, men har aldrig fundet udbredt anvendelse — hverken i daglig tale eller i IT-fagsprog."
+    }
   ],
-  "category": "devops",
+  "examples": [
+    "Harddisken er ved at være fyldt op.",
+    "Vi udskifter de gamle harddiske med SSD'er."
+  ],
+  "category": "hardware",
   "status": "approved"
 }
 ```
@@ -41,6 +47,7 @@ Alle ord findes i [`data/terms.json`](data/terms.json). En post ser sådan ud:
 | `definition_en` | Kort, neutral definition på engelsk |
 | `note_da` | Kommentar på dansk om brug, bøjning, register, osv. |
 | `alternatives_da` | Liste af danske alternativer der findes i brug, men som ikke er primærvalg |
+| `rejected_translations_da` | Foreslåede oversættelser der *ikke* er accepteret — hver med en `reason` der dokumenterer hvorfor (fx manglende udbredelse, misvisende, kun i ældre opslagsværker) |
 | `examples` | Eksempelsætninger der viser udtrykket i naturlig brug |
 | `category` | Fagligt område, fx `devops`, `security`, `networking`, `data`, `frontend`, `general` |
 | `status` | `approved`, `proposed`, `under_review`, `disputed` |
