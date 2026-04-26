@@ -1,0 +1,118 @@
+{
+  "$schema": "../schema/terms.schema.json",
+  "version": "0.1.0",
+  "terms": [
+    {
+      "term_en": "deployment",
+      "term_da": "deployment",
+      "loanword": "pure_loan",
+      "definition_en": "The process of releasing software to a target environment.",
+      "note_da": "Bruges som rent låneord. Verbet bøjes på dansk: 'at deploye', 'deployer', 'deployede'.",
+      "alternatives_da": ["udrulning", "idriftsættelse"],
+      "examples": [
+        "Vi laver et deployment til produktion fredag.",
+        "Pipelinen deployer automatisk til staging."
+      ],
+      "category": "devops",
+      "status": "approved"
+    },
+    {
+      "term_en": "cloud",
+      "term_da": "cloud",
+      "loanword": "coexists",
+      "definition_en": "Computing resources delivered as a service over the internet.",
+      "note_da": "Både 'cloud' og 'sky' bruges. 'Sky' er mere udbredt i forbrugersammenhænge ('skylagring'), mens 'cloud' dominerer i fagmiljøet ('cloud-native', 'public cloud').",
+      "alternatives_da": ["sky"],
+      "examples": [
+        "Vi flytter alt i cloud i Q3.",
+        "Filerne ligger i skyen."
+      ],
+      "category": "general",
+      "status": "approved"
+    },
+    {
+      "term_en": "reboot",
+      "term_da": "genstart",
+      "loanword": "translated",
+      "definition_en": "To restart a computer or system.",
+      "note_da": "'Genstart' er det klart dominerende danske udtryk, både som verbum ('genstarte') og navneord. 'Reboot' bruges sjældent i dansk fagsprog.",
+      "alternatives_da": ["reboot"],
+      "examples": [
+        "Prøv at genstarte maskinen.",
+        "En genstart løste problemet."
+      ],
+      "category": "general",
+      "status": "approved"
+    },
+    {
+      "term_en": "server",
+      "term_da": "server",
+      "loanword": "adapted_loan",
+      "definition_en": "A computer or program that provides functionality to other programs or devices.",
+      "note_da": "Fuldt integreret i dansk: 'en server', 'serveren', 'flere servere', 'serverne'.",
+      "alternatives_da": [],
+      "examples": [
+        "Vi har tre servere i produktion.",
+        "Serveren er nede."
+      ],
+      "category": "networking",
+      "status": "approved"
+    },
+    {
+      "term_en": "motherboard",
+      "term_da": "bundkort",
+      "loanword": "calque",
+      "definition_en": "The main printed circuit board of a computer.",
+      "note_da": "Klassisk oversættelseslån (mother → bund, board → kort). 'Bundkort' er stort set enerådende på dansk.",
+      "alternatives_da": ["motherboard"],
+      "examples": [
+        "Bundkortet er gået i stykker.",
+        "Det nye bundkort understøtter DDR5."
+      ],
+      "category": "hardware",
+      "status": "approved"
+    },
+    {
+      "term_en": "password",
+      "term_da": "adgangskode",
+      "loanword": "coexists",
+      "definition_en": "A secret string used to authenticate a user.",
+      "note_da": "'Adgangskode' er det formelle og myndighedsanbefalede udtryk. 'Password' og 'kodeord' bruges også bredt i dagligsprog.",
+      "alternatives_da": ["password", "kodeord"],
+      "examples": [
+        "Du skal angive din adgangskode.",
+        "Glemt password? Klik her."
+      ],
+      "category": "security",
+      "status": "approved"
+    },
+    {
+      "term_en": "pipeline",
+      "term_da": "pipeline",
+      "loanword": "pure_loan",
+      "definition_en": "An automated sequence of build, test and deploy steps.",
+      "note_da": "Bruges som låneord, ofte med dansk bøjning: 'pipelinen', 'pipelines', 'pipelinene'. Direkte oversættelser ('rørledning') bruges ikke i IT-betydningen.",
+      "alternatives_da": [],
+      "examples": [
+        "CI-pipelinen fejler på staging.",
+        "Vi har bygget en ny deployment-pipeline."
+      ],
+      "category": "devops",
+      "status": "approved"
+    },
+    {
+      "term_en": "backup",
+      "term_da": "backup",
+      "loanword": "coexists",
+      "definition_en": "A copy of data stored separately for recovery purposes.",
+      "note_da": "'Backup' dominerer i fagsprog. 'Sikkerhedskopi' er det officielle danske udtryk og bruges i formelle sammenhænge og i myndighedssprog.",
+      "alternatives_da": ["sikkerhedskopi"],
+      "examples": [
+        "Tag en backup før du opdaterer.",
+        "Sikkerhedskopien blev gendannet."
+      ],
+      "category": "general",
+      "status": "approved"
+    }
+  ]
+}

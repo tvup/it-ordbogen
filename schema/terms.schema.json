@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tvup/it-ordbogen/schema/terms.schema.json",
+  "title": "IT-ordbog: terms",
+  "type": "object",
+  "required": ["version", "terms"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": {
+      "type": "string",
+      "description": "Semver-version af datafilen.",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "terms": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/term" }
+    }
+  },
+  "$defs": {
+    "term": {
+      "type": "object",
+      "required": ["term_en", "term_da", "loanword", "definition_en", "category", "status"],
+      "additionalProperties": false,
+      "properties": {
+        "term_en": {
+          "type": "string",
+          "description": "Det engelske udtryk. Lowercase medmindre det er et egennavn."
+        },
+        "term_da": {
+          "type": "string",
+          "description": "Det danske udtryk som det typisk skrives. Kan være identisk med term_en for låneord."
+        },
+        "loanword": {
+          "type": "string",
+          "enum": ["pure_loan", "adapted_loan", "translated", "coexists", "calque"],
+          "description": "Klassifikation af forholdet mellem engelsk og dansk."
+        },
+        "definition_en": {
+          "type": "string",
+          "description": "Kort, neutral definition på engelsk."
+        },
+        "note_da": {
+          "type": "string",
+          "description": "Kommentar på dansk om brug, bøjning, register, regional variation osv."
+        },
+        "alternatives_da": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Danske alternativer der findes i brug, men ikke er primærvalg."
+        },
+        "examples": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Eksempelsætninger der viser udtrykket i naturlig brug."
+        },
+        "category": {
+          "type": "string",
+          "description": "Fagligt område: devops, security, networking, data, frontend, backend, hardware, ai, general, m.fl."
+        },
+        "status": {
+          "type": "string",
+          "enum": ["proposed", "under_review", "approved", "disputed"],
+          "description": "Redaktionel status."
+        },
+        "sources": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Kilder/referencer der underbygger klassifikationen."
+        }
+      }
+    }
+  }
+}
