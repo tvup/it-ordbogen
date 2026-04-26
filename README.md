@@ -82,7 +82,7 @@ Princippet er **demokrati med respekt for faglighed**: alle kan foreslå og disk
 
 ## Redaktionelle principper
 
-Hvad ordbogen optager og hvordan poster skal skrives, styres af et sæt redaktionelle principper — fx at engelske grammatiske bestanddele (*"14-ish"*) ikke optages som IT-udtryk, og at danske sammensætninger skal samskrives (*versionskonflikt*, ikke *version konflikt*).
+Hvad ordbogen optager og hvordan poster skal skrives, styres af et sæt redaktionelle principper — fx at engelske grammatiske bestanddele ikke optages som IT-udtryk (*"noget token-ish"* afvises, selvom *token* selv er en post), og at danske sammensætninger skal samskrives (*versionskonflikt*, ikke *version konflikt*).
 
 Se [`PRINCIPLES.md`](PRINCIPLES.md) for den fulde liste.
 
