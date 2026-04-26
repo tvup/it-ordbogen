@@ -40,7 +40,7 @@ Når engelske flerords-udtryk får et dansk modstykke, skrives det danske sammen
 Når en post afvises på baggrund af én af disse principper, skal det dokumenteres:
 
 - **Afvist oversættelsesforslag** (fx *version konflikt* med mellemrum) skrives ind under `rejected_translations_da` med begrundelse, der eksplicit henviser til princippet (fx *"Særskrivning af dansk sammensætning, jf. PRINCIPLES.md §2"*).
-- **Afvist optagelse** (fx hele *14-ish*-eksemplet) optages **ikke** som post — det er ikke et IT-udtryk overhovedet. Hvis spørgsmålet kommer op i en PR, lukkes den med henvisning til §1.
+- **Afvist optagelse** (fx *token-ish*-konstruktionen) optages **ikke** som selvstændig post — den grammatiske kalke er ikke et IT-udtryk, selv når grundordet er det. Hvis spørgsmålet kommer op i en PR, lukkes den med henvisning til §1.
 
 ---
 
