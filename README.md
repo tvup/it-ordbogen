@@ -80,6 +80,12 @@ Ordbogen er åben for bidrag, men beslutninger om hvad der ender som godkendt in
 
 Princippet er **demokrati med respekt for faglighed**: alle kan foreslå og diskutere, men den endelige redaktionelle beslutning ligger hos folk med dokumenteret IT-faglig og/eller sproglig baggrund.
 
+## Redaktionelle principper
+
+Hvad ordbogen optager og hvordan poster skal skrives, styres af et sæt redaktionelle principper — fx at engelske grammatiske bestanddele (*"14-ish"*) ikke optages som IT-udtryk, og at danske sammensætninger skal samskrives (*versionskonflikt*, ikke *version konflikt*).
+
+Se [`PRINCIPLES.md`](PRINCIPLES.md) for den fulde liste.
+
 ## Licens
 
 - **Indhold** (ordbogsdata, definitioner, noter): [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)

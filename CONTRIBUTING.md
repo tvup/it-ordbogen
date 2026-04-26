@@ -25,6 +25,7 @@ Tak for din interesse! Denne ordbog lever af bidrag fra IT-folk og sprogfolk.
 - **`note_da`** forklarer *hvorfor* udtrykket klassificeres som det gør, ikke bare hvad det betyder
 - **Eksemplerne** er realistiske sætninger fra faktisk brug — ikke konstruerede skoleeksempler
 - **Klassifikationen** er ærlig: hvis et udtryk faktisk bruges i begge former, så er det `coexists` — også selvom du personligt foretrækker den ene
+- **Posten følger de redaktionelle principper** i [`PRINCIPLES.md`](PRINCIPLES.md) — bl.a. samskrivning af danske sammensætninger og afvisning af engelske grammatiske kalker
 
 ## Hvad gør en *dårlig* post?
 
