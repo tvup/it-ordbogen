@@ -4,7 +4,7 @@
 
 > *Hvad siges i dansk tale, og hvad skrives på dansk?*
 
-En åben ordbog over IT-udtryk fra handels-engelsk med deres danske modstykker — uanset om de ender som rene låneord, tilpassede låneord eller får en egentlig dansk oversættelse.
+En åben ordbog over IT-udtryk fra kommercielt sprog og de tilsvarende danske udtryk — uanset om de ender som rene låneord, tilpassede låneord eller får en egentlig dansk oversættelse.
 
 ## Formål
 
