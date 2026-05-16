@@ -143,6 +143,21 @@
       ],
       "category": "general",
       "status": "approved"
+    },
+    {
+      "term_en": "script",
+      "term_da": "script",
+      "loanword": "adapted_loan",
+      "definition_en": "A list of commands or a program executed by an interpreter. Also, the written text of a play, film, or broadcast.",
+      "note_da": "Låneord af intetkøn. Bøjes: 'et script', 'scriptet'. Flertal er oftest 'scripts' (især i IT-kontekst), men den mere fordanskede form 'scripter' er også korrekt. Den bestemte flertalsform følger heraf: 'scriptsene' eller 'scripterne'.",
+      "alternatives_da": [],
+      "rejected_translations_da": [],
+      "examples": [
+        "Jeg har skrevet et script, der automatisk rydder op i mappen.",
+        "Skuespillerne har endnu ikke modtaget det endelige script."
+      ],
+      "category": "IT / Medier",
+      "status": "approved"
     }
   ]
 }
